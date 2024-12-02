@@ -18,7 +18,9 @@ function verificar() { //função para verificar o numero do usuario
         //se o valor for o mesmo mostra a mensagem 
         resultado.textContent = "Parabéns! Você acertou!";
     //se o valor não estiver correto mostra estas mensagens dizendo se o numero é maior ou menor do que o que foi inserido
+        // Exibe o botão de reiniciar
         botaoReiniciar.style.display = "block";
+        
     } else if (guess < numeroAleatorio) {
         resultado.textContent = "Tente novamente! O número é maior.";
     } else {
