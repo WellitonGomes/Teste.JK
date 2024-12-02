@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo de Adivinhação de Números</title>
+</head>
+<body>
+    <!--Div para centralizar as informações principais-->
+    <div class="centro">
+        <h1>Jogo de Adivinhação de Números</h1>
+        <!--entrada dos dados-->
+        <input class="entrada" type="text" id="guess" placeholder="por favor, digite um número de 1 a 100...">
+        <br>
+        <!--botão para enviar o numero digitado-->
+        <button class="botao" onclick="verificar()">Enviar</button>
+        <!--div que mostra a mensagem de correto ou incorreto ao usuario-->
+        <div class="resultado" id="resultado"></div>
+        <!--div que reinicia o jogo após o usuario acertar o numero-->
+        <div id="reiniciar" style="display: none;"> 
+            <button class="botao2" onclick="reiniciarJogo()">Reiniciar Jogo</button> 
+        </div>
+    </div>
+
+    <!--link do java script-->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+/* estilização do corpo da pagina*/
+body{
+    /* centralizando e definindo a fonte da pagina */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* estilização da entrada dos dados*/
+.entrada{
+    /* centralizando, definindo o tamanho, a fonte o estilo e o tamanho*/
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px
+}
+
+/* centralização do placeholder */
+.entrada::placeholder {
+    position: absolute;
+    margin-left: 40px;
+}
+
+/* estilização da entrada quando o mouse passa por ela */
+.entrada:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* estilização do botão*/
+.botao{
+    /* definindo uma margem do topo dp botão, seu tamanho, estilização da fonte e o tamanho*/
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* estilização do botão quando o mouse passa por ela */
+.botao:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.botao2{
+    /* definindo uma margem do topo dp botão, seu tamanho, estilização da fonte e o tamanho*/
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reiniciar{
+    background-color: aqua;
+}
+
+/* estilização da saida, ou da mensagem mostrada ao usuario*/
+.resultado{
+    /* definindo uma margem do topo, o tamanho e a estilização da fonte */
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
